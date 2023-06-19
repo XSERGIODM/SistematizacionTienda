@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXPasswordField?>
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<FlowPane id="frame" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="650.0" prefWidth="530.0" prefWrapLength="0.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.xsergiodm.controller.Login_controller">
+   <children>
+      <VBox id="panel" alignment="TOP_CENTER" prefHeight="614.0" prefWidth="312.0" spacing="30.0">
+         <children>
+            <ImageView id="iconUser" fitHeight="150.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </ImageView>
+            <MFXTextField id="tfUsuario" fx:id="tfUsuario" borderGap="12.0" floatMode="BORDER" floatingText="Usuario" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="200.0" textLimit="100" />
+            <MFXPasswordField id="tpContrasenia" fx:id="tpContrasenia" borderGap="12.0" floatMode="BORDER" floatingText="Contraseña" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="200.0" />
+            <MFXButton fx:id="btIniciarSesion" buttonType="RAISED" onAction="#iniciar" text="Iniciar sesión" />
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </VBox>
+   </children>
+</FlowPane>

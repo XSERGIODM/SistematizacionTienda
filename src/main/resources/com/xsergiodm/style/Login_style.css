@@ -1,0 +1,36 @@
+* {
+  -fx-font-family: "Segoe UI";
+  -fx-font-size: 12px;
+}
+
+.root {
+  -fx-background-image: url("/com/xsergiodm/image/Rectangle.png");
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: cover;
+  -fx-background-position: center;
+}
+
+#frame #panel {
+  -fx-background-image: url("/com/xsergiodm/image/Frame2.png");
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: contain;
+  -fx-background-position: center;
+}
+#frame #panel #iconUser {
+  -fx-image: url("/com/xsergiodm/icon/MaleUser.png");
+}
+
+.mfx-text-field:floating .floating-text {
+  -fx-background-color: rgba(255, 212, 0, 0.42);
+}
+
+.mfx-text-field:floating .floating-text {
+  -fx-background-color: #ff0000;
+}
+
+.mfx-text-field:floating .text-field {
+  -fx-highlight-fill: #d5818f; /* Selected text highlight */
+  -fx-prompt-text-fill: -mfx-text-me; /* Prompt text color */
+}
+
+/*# sourceMappingURL=Login_style.css.map */
