@@ -1,6 +1,5 @@
 * {
-  -fx-font-family: "Segoe UI";
-  -fx-font-size: 12px;
+  -fx-font-family: "Readex Pro";
 }
 
 .root {
@@ -18,9 +17,13 @@
 }
 #frame #panel #iconUser {
   -fx-image: url("/com/xsergiodm/icon/MaleUser.png");
+  -fx-background-size: 190px, 190px;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
 }
 #frame #panel #tfUsuario {
-  -mfx-main: -mfx-green;
+  -mfx-main: -mfx-blue;
   -fx-background-color: rgba(255, 255, 255, 0.76);
   -fx-background-radius: 20;
   -fx-border-color: #0034ff;
@@ -36,6 +39,23 @@
   -fx-border-radius: 20;
   -fx-prompt-text-fill: white;
   -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+#frame #panel #btIniciarSesion {
+  -fx-background-color: rgba(17, 26, 100, 0.5);
+  -fx-background-radius: 30;
+  -fx-border-radius: 30;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-font-size: 16px;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+#frame #panel #btIniciarSesion:hover {
+  -fx-background-color: rgb(17, 26, 100);
+}
+#frame #panel #labelCopy {
+  -fx-text-fill: white;
+  -fx-font-size: 12px;
+  -fx-font-weight: bold;
 }
 
 /*# sourceMappingURL=Login_style.css.map */

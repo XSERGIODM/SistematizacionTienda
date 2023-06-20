@@ -1,8 +1,6 @@
 
 * {
-  -fx-font-family: "Segoe UI";
-  -fx-font-size: 12px;
-
+  -fx-font-family: "Readex Pro";
 }
 
 .root {
@@ -15,8 +13,6 @@
 
 
 #frame {
-
-
   #panel {
     -fx-background-image: url("/com/xsergiodm/image/Frame2.png");
     -fx-background-repeat: no-repeat;
@@ -25,17 +21,13 @@
 
     #iconUser {
       -fx-image: url("/com/xsergiodm/icon/MaleUser.png");
-    }
-    #tfUsuario{
-      -mfx-main: -mfx-green;
-      -fx-background-color: rgba(255, 255, 255, 0.76);
-      -fx-background-radius: 20;
-      -fx-border-color: #0034ff;
-      -fx-border-radius: 20;
-      -fx-prompt-text-fill: white;
+      -fx-background-size: 190px, 190px;
+      -fx-background-repeat: no-repeat;
+      -fx-background-position: center;
       -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
     }
-    #tpContrasenia{
+
+    #tfUsuario {
       -mfx-main: -mfx-blue;
       -fx-background-color: rgba(255, 255, 255, 0.76);
       -fx-background-radius: 20;
@@ -43,6 +35,36 @@
       -fx-border-radius: 20;
       -fx-prompt-text-fill: white;
       -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+    }
+
+    #tpContrasenia {
+      -mfx-main: -mfx-blue;
+      -fx-background-color: rgba(255, 255, 255, 0.76);
+      -fx-background-radius: 20;
+      -fx-border-color: #0034ff;
+      -fx-border-radius: 20;
+      -fx-prompt-text-fill: white;
+      -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+    }
+
+    #btIniciarSesion {
+      -fx-background-color: rgba(17, 26, 100, 0.5);
+      -fx-background-radius: 30;
+      -fx-border-radius: 30;
+      -fx-text-fill: white;
+      -fx-font-weight: bold;
+      -fx-font-size: 16px;
+      -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+    }
+
+    #btIniciarSesion:hover {
+      -fx-background-color: rgba(17, 26, 100, 1);
+    }
+
+    #labelCopy {
+      -fx-text-fill: white;
+      -fx-font-size: 12px;
+      -fx-font-weight: bold;
     }
   }
 }
