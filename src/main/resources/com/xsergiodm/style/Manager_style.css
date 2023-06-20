@@ -1,0 +1,74 @@
+* {
+  -fx-font-family: "Readex Pro";
+}
+
+.root {
+  -fx-background-image: url("/com/xsergiodm/image/ManagerFrame.png");
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: cover;
+  -fx-background-position: center;
+}
+
+#frame #panel {
+  -fx-background-image: url("/com/xsergiodm/image/ManagerPanel.png");
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: contain;
+  -fx-background-position: center;
+}
+#frame #btInfo {
+  -fx-background-color: transparent;
+  -fx-background-radius: 100%;
+  -fx-border-radius: 100%;
+}
+#frame #btInfo .image-view {
+  -fx-image: url("/com/xsergiodm/icon/Info.png");
+}
+#frame #btInfo:hover {
+  -fx-background-color: rgba(9, 38, 94, 0.3);
+}
+#frame #btInfo:pressed {
+  -fx-background-color: rgba(9, 38, 94, 0.5);
+}
+#frame #menuBar {
+  -fx-background-image: url("/com/xsergiodm/image/ManagerMenuBar.png");
+  -fx-background-color: transparent;
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: cover;
+  -fx-background-position: center;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 8, 0.2, 0, 3);
+}
+#frame #menuBar .image-view {
+  -fx-alignment: center;
+}
+#frame #menuBar .label {
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-font-size: 16px;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+#frame #menuBar #iconUsuario {
+  -fx-image: url("/com/xsergiodm/icon/UserMale.png");
+}
+#frame #menuBar #iconProducto {
+  -fx-image: url("/com/xsergiodm/icon/Ingredients.png");
+}
+#frame #menuBar #iconCategoria {
+  -fx-image: url("/com/xsergiodm/icon/SellStock.png");
+}
+#frame #menuBar #iconFactura {
+  -fx-image: url("/com/xsergiodm/icon/Bill.png");
+}
+#frame #menuBar #iconCliente {
+  -fx-image: url("/com/xsergiodm/icon/Conference.png");
+}
+#frame #menuBar #iconHistorial {
+  -fx-image: url("/com/xsergiodm/icon/Accounting.png");
+}
+#frame #menuBar #iconReporte {
+  -fx-image: url("/com/xsergiodm/icon/InvestmentPortfolio.png");
+}
+#frame #menuBar #iconDesconectar {
+  -fx-image: url("/com/xsergiodm/icon/Cancel.png");
+}
+
+/*# sourceMappingURL=Manager_style.css.map */
