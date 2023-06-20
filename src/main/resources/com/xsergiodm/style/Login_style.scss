@@ -26,22 +26,23 @@
     #iconUser {
       -fx-image: url("/com/xsergiodm/icon/MaleUser.png");
     }
+    #tfUsuario{
+      -mfx-main: -mfx-green;
+      -fx-background-color: rgba(255, 255, 255, 0.76);
+      -fx-background-radius: 20;
+      -fx-border-color: #0034ff;
+      -fx-border-radius: 20;
+      -fx-prompt-text-fill: white;
+      -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+    }
+    #tpContrasenia{
+      -mfx-main: -mfx-blue;
+      -fx-background-color: rgba(255, 255, 255, 0.76);
+      -fx-background-radius: 20;
+      -fx-border-color: #0034ff;
+      -fx-border-radius: 20;
+      -fx-prompt-text-fill: white;
+      -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+    }
   }
 }
-
-.mfx-text-field:floating{
-  .floating-text {
-    -fx-background-color: rgba(255, 212, 0, 0.42);
-  }
-}
-.mfx-text-field:floating .floating-text {
-  -fx-background-color: #ff0000;
-}
-.mfx-text-field:floating .text-field {
-  -fx-highlight-fill: #d5818f; /* Selected text highlight */
-  -fx-prompt-text-fill: -mfx-text-me; /* Prompt text color */
-}
-
-
-
-
