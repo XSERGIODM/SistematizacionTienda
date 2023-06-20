@@ -73,7 +73,8 @@
             </Menu>
             <Menu mnemonicParsing="false" text="Desconectar">
                <items>
-                  <MenuItem mnemonicParsing="false" text="Close" />
+                  <MenuItem fx:id="miCerrarSesion" mnemonicParsing="false" onAction="#cerrarSesion" text="Cerrar sesion..." />
+                  <MenuItem fx:id="miSalir" mnemonicParsing="false" onAction="#salir" text="Salir" />
                </items>
                <graphic>
                   <ImageView id="iconDesconectar" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" smooth="false" />

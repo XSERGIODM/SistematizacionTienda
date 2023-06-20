@@ -18,16 +18,19 @@
   }
 
   #btInfo {
-    .image-view{
+    .image-view {
       -fx-image: url("/com/xsergiodm/icon/Info.png");
     }
+
     -fx-background-color: transparent;
     -fx-background-radius: 100%;
     -fx-border-radius: 100%;
   }
+
   #btInfo:hover {
     -fx-background-color: rgba(9, 38, 94, 0.3);
   }
+
   #btInfo:pressed {
     -fx-background-color: rgba(9, 38, 94, 0.5);
   }
@@ -43,11 +46,12 @@
     .image-view {
       -fx-alignment: center;
     }
-    .label{
+
+    .label {
       -fx-text-fill: white;
       -fx-font-weight: bold;
       -fx-font-size: 16px;
-      -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+      -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 1, 2);
     }
 
     #iconUsuario {
@@ -65,17 +69,29 @@
     #iconFactura {
       -fx-image: url("/com/xsergiodm/icon/Bill.png");
     }
-    #iconCliente{
+
+    #iconCliente {
       -fx-image: url("/com/xsergiodm/icon/Conference.png");
     }
-    #iconHistorial{
+
+    #iconHistorial {
       -fx-image: url("/com/xsergiodm/icon/Accounting.png");
     }
-    #iconReporte{
+
+    #iconReporte {
       -fx-image: url("/com/xsergiodm/icon/InvestmentPortfolio.png");
     }
-    #iconDesconectar{
+
+    #iconDesconectar {
       -fx-image: url("/com/xsergiodm/icon/Cancel.png");
+    }
+
+    .menu-item {
+      -fx-background-color: rgba(0, 0, 0, 0.30);
+
+      .label {
+        -fx-text-fill: #6EC2E6;
+      }
     }
   }
 }

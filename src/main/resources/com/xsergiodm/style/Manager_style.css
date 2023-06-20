@@ -44,7 +44,7 @@
   -fx-text-fill: white;
   -fx-font-weight: bold;
   -fx-font-size: 16px;
-  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 1, 2);
 }
 #frame #menuBar #iconUsuario {
   -fx-image: url("/com/xsergiodm/icon/UserMale.png");
@@ -69,6 +69,12 @@
 }
 #frame #menuBar #iconDesconectar {
   -fx-image: url("/com/xsergiodm/icon/Cancel.png");
+}
+#frame #menuBar .menu-item {
+  -fx-background-color: rgba(0, 0, 0, 0.3);
+}
+#frame #menuBar .menu-item .label {
+  -fx-text-fill: #6EC2E6;
 }
 
 /*# sourceMappingURL=Manager_style.css.map */

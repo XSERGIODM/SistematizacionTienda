@@ -11,9 +11,9 @@ import javafx.stage.StageStyle
 class Run: Application() {
     override fun start(primaryStage: Stage?) {
 
-        val fxmlLoader = FXMLLoader(Run::class.java.getResource("/com/xsergiodm/view/Manager_view.fxml"))
+        val fxmlLoader = FXMLLoader(Run::class.java.getResource("/com/xsergiodm/view/Longin_view.fxml"))
 
-        val style = Run::class.java.getResource("/com/xsergiodm/style/Manager_style.css")?.toExternalForm()
+        val style = Run::class.java.getResource("/com/xsergiodm/style/Login_style.css")?.toExternalForm()
 
         val escena = fxmlLoader.load<javafx.scene.Parent>()
         escena.stylesheets.add(style)
