@@ -52,6 +52,12 @@
 #frame #panel #btIniciarSesion:hover {
   -fx-background-color: rgb(17, 26, 100);
 }
+#frame #panel #btIniciarSesion:selected {
+  -fx-background-color: rgb(17, 26, 100);
+}
+#frame #panel #btIniciarSesion:pressed {
+  -fx-background-color: rgba(55, 62, 115, 0.5);
+}
 #frame #panel #labelCopy {
   -fx-text-fill: white;
   -fx-font-size: 12px;
